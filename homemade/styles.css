@@ -1,14 +1,16 @@
-.attribute {
+.html-attribute {
     color: rgb(1, 73, 1);
     size: 50px;
 }
 
-code {
+#html-tags {
     color: red;
     font-weight: bold;
+    font-family: monospace;
+    background-color: khaki;
 }
 
-#tables thead {
+#html-tables thead {
     background-color: rgb(137, 34, 221);
 
 }

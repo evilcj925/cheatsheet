@@ -4,10 +4,15 @@
     <title>Evil's Coding Cheetsheet</title>
     <link rel="stylesheet" href="./styles.css" type="text/css" />
   </head>
+  <nav>
+    <ol>
+      <li><a href="#html-table">HTML Tables</a></li>
+    </ol>
+  </nav>
   <body>
     <h1 id="refsheet">Evil's Coding Reference Sheet</h1>
 
-    <table id="tables">
+    <table id="html-tables">
       <h2 class="HTML">HTML</h2>
       <thead>
         <tr>
@@ -20,57 +25,56 @@
       <tbody>
         <tr>
           <!--row 1-->
-          <td><code>&lt;table&gt;</code></td>
+          <td><code id="html-tags">&lt;table&gt;</code></td>
           <td>Table</td>
           <td>The wrapper element for all tables</td>
         </tr>
         <tr>
           <!--row 2-->
-          <td><code>&lt;tr&gt;</code></td>
+          <td><code id="html-tags">&lt;tr&gt;</code></td>
           <td>Table Row</td>
           <td>Creates a new row</td>
         </tr>
         <tr>
           <!--row 3-->
-          <td><code>&lt;td&gt;</code></td>
+          <td><code id="html-tags">&lt;td&gt;</code></td>
           <td>Table Data</td>
           <td>Adds data to a cell</td>
         </tr>
         <tr>
           <!--row 4-->
-          <td><code>&lt;th&gt;</code></td>
+          <td><code id="html-tags">&lt;th&gt;</code></td>
           <td>Table Head</td>
-          <td>Adds a header<span class="attribute"> scope="col"</span>
-          </td>
+          <td>Adds a header<span class="html-attribute"> scope="col" </span>to go in the Head</td>
         </tr>
         <tr>
           <!--row 5-->
-          <td><code>&lt;thead&gt;</code></td>
+          <td><code id="html-tags">&lt;thead&gt;</code></td>
           <td>Table Head</td>
           <td>Designates the section as the Head</td>
         </tr>
         <tr><!--row 6-->
-        <td><code>&lt;tbody&gt;</code></td>
+        <td><code id="html-tags">&lt;tbody&gt;</code></td>
         <td>Table Body</td>
         <td>Designates the section as the body</td>
       </tr>
       <tr><!--row 7-->
-        <td><code>&lt;tfoot&gt;</code></td>
+        <td><code id="html-tags">&lt;tfoot&gt;</code></td>
         <td>Table Footer</td>
         <td>Designates the secton as the footer</td>
       </tr>
       <tr><!--row 8-->
-        <td class="attribute">colspan=""</td>
+        <td class="html-attribute">colspan=""</td>
         <td>Column Span</td>
         <td>Makes element span columns</td>
       </tr>
       <tr><!--row 9-->
-        <td class="attribute">rowspan=""</td>
+        <td class="html-attribute">rowspan=""</td>
         <td>Row Span</td>
         <td>Makes element span rows</td>
       </tr>
       <tr>
-        <td class="attribute">scope=""</td>
+        <td class="html-attribute">scope=""</td>
         <td>scope</td>
         <td>Takes either "col" or "row"; Used on headings.</td>
       </tr>
