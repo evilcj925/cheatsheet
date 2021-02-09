@@ -8,7 +8,7 @@ code {
     font-weight: bold;
 }
 
-thead {
+#tables thead {
     background-color: rgb(137, 34, 221);
 
 }
