@@ -3,6 +3,10 @@
   size: 50px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #html-tags {
   color: red;
   font-weight: bold;
